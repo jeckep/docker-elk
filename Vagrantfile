@@ -6,7 +6,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "parallels/ubuntu-13.10"
+  config.vm.box = "chef/ubuntu-13.10"
 
   config.vm.network "public_network"
 
